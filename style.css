@@ -1,7 +1,44 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
+.logo {
+  width: 32px;
+}
+
+.cover {
+  width: 270px;
+}
+
+.dex {
+  width: 96px;
+  border-radius: 25px;
+  border: solid #3882F6;
+}
+
+.logo,
+.cover,
+.dex {
+  height: auto;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
 }

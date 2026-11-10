@@ -7,8 +7,15 @@ body {
 }
 
 .header {
+  min-height: 50px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
 }
 
 .minidex {
@@ -50,7 +57,7 @@ a {
 .logo,
 .cover,
 .dex {
-  height: auto;
+  height: fit-content;
 }
 
 .header,

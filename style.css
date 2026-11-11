@@ -7,7 +7,8 @@ body {
 }
 
 .header {
-  min-height: 50px;
+  min-height: 60px;
+  padding: 5px 100px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,6 +17,31 @@ body {
 .header-links {
   display: flex;
   gap: 20px;
+}
+
+.hero {
+  padding: 5px 100px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-left {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bigtext {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subtext {
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .minidex {
@@ -57,7 +83,7 @@ a {
 .logo,
 .cover,
 .dex {
-  height: fit-content;
+  height: auto;
 }
 
 .header,

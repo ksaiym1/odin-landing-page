@@ -6,6 +6,23 @@ body {
   flex-direction: column;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
 .header {
   min-height: 60px;
   padding: 5px 100px 20px;
@@ -14,7 +31,19 @@ body {
   justify-content: space-between;
 }
 
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logotext {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
 .header-links {
+  font-size: 16px;
   display: flex;
   gap: 20px;
 }
@@ -44,6 +73,18 @@ body {
   font-size: 18px;
 }
 
+.signup,
+.conclude {
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+.heading {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
 .minidex {
   display: flex;
   justify-content: space-around;
@@ -53,17 +94,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-a {
-  text-decoration: none;
-  color: #F9FAF8;
 }
 
 .logo {
@@ -80,16 +110,18 @@ a {
   border: solid #3882F6;
 }
 
+.quote {
+  color: #1F2937;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .logo,
 .cover,
 .dex {
   height: auto;
-}
-
-.header,
-.hero,
-.footer {
-  background-color: #1F2937;
 }
 
 .footer {

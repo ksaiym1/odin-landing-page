@@ -31,7 +31,7 @@ a {
 
 .header {
   min-height: 60px;
-  padding: 10px 100px 50px;
+  padding: 10px 240px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,7 +55,7 @@ a {
 }
 
 .hero {
-  padding: 0px 100px 60px;
+  padding: 0px 240px 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -133,6 +133,24 @@ a {
   width: 96px;
   border-radius: 25px;
   border: solid #3882F6;
+}
+
+.conclude {
+  margin: 20px 240px;
+  padding: 25px 75px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call-text {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.action-text {
+  font-size: 12px;
 }
 
 .quote {
